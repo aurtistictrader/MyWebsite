@@ -1,3 +1,3 @@
 Personal Website 
 
-Can be found <a href="www.chengpeng.ca"> Here <a>
+Can be found <a href="http://www.chengpeng.ca" target="_blank"> Here <a>
