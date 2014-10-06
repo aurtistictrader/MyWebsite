@@ -1,3 +1,3 @@
 My Personal Website
 
-<a href="chengpeng.ca" target=_blank>Here</a>
+<a href="http://www.chengpeng.ca" target=_blank>Here</a>
