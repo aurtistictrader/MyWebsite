@@ -1,0 +1,12 @@
+{
+  "require" : {
+    "silex/silex": "~1.1",
+    "monolog/monolog": "~1.7",
+    "twig/twig": "~1.0",
+    "mheap/Silex-Assetic": "~1.0",
+    "sendgrid/sendgrid": "2.0.5"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}
