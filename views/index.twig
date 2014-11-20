@@ -195,7 +195,50 @@
 		<div class="padding-bottom bg-light">
 			<div class="container masonry-wrapper">
 				<div id="projects-container" class= "masonry">
-					<article class="project-item web-design image y2014 masonry-brick" style="position: absolute; top: 0px; left: 0px;">
+
+					<article class="project-item web-design video y2014 masonry-brick" style="position: absolute; top: 0px; left: 0px;">
+						<a href="#">
+							<img class="img-responsive project-thumb" src="img/itistimeyo.png" alt="">
+							
+							<div class="details">
+								<h3 class="project-title">It Is Time YO</h3>
+								<small>Web</small>
+							</div>
+						</a>
+						<div class="sr-only">
+							<div class="project-media" data-video="<iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;http://www.youtube.com/embed/EKC5D9g5FQo&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>"></div>
+							<div class="project-attributes">
+								<div class="newline"><span>Date : </span> November 18, 2014 </div>
+								<div class="newline"><span>Creation : </span> YO Challenge </div>
+								<div class="newline"><span>Categories : </span>Web App</div>
+								<div class="newline"><span>Website : </span> <a href="http://itistimeyo.me/" target="_blank"> itistimeyo.me </a> </div>
+							</div>
+						
+							<div class="project-description">
+							
+								<div class="col-md-4">
+									<h2>The Challenge</h2>
+									<p> First time using Django, postgresql and the YO api, we wanted to make a web-app that allowed users to set a simple and quick reminder for the near future (up to 24 hours). We needed a responsive
+									backend, smooth-interface and high quality app that was fit for release. </p>
+								</div>
+								
+								<div class="col-md-4">
+									<h2>The Solution</h2>
+									<p> Heavily relying on the Django, Heroku and Postgresql documentation, the back-end database was finally ready to accept YO usernames, and a time in { Hours, Minutes }. Upon insert, the user's time is adjusted depending on the current time on the server as the countdown begins. Using something similar to a Cron Job, the database polls every 10 seconds to sent a YO notification whenever a row in the database has expired, deleting it to avoid bottlenecks. After some fiddling with Forms and the Django infrastructure, the front-end was completed as well. </p>
+								</div>
+								
+								<div class="col-md-4">
+									<h2>The Result</h2>
+									<p> Barely managing to hand-in the challenge on time, the app was finally completed with satisfaction. <br>
+										Next steps: Clean-up code and remove security threats to Open-Source. 
+													Added dynamic accounts on YO to send unique reminders! </p>
+								</div>
+								
+							</div>
+						</div>
+						
+					</article> 
+					<article class="project-item web-design image y2014 masonry-brick" style="position: absolute; top: 0px; left: 370px;">
 						<a href="#">
 							<img class="img-responsive project-thumb" src="img/twp.png" alt="">
 							
@@ -210,7 +253,7 @@
 								<div class="newline"><span>Date : </span> September 21, 2014 </div>
 								<div class="newline"><span>Creation : </span> Hack the North </div>
 								<div class="newline"><span>Categories : </span>Web App</div>
-								<div class="newline"><span>Website : </span> <a href="http://twilio-plays-2048.herokuapp.com/" target="_blank"> twilio-plays-2048.herokuapp.com </a> </div>
+								<div class="newline"><span>Website : </span> <a href="http://twilioplays2048.com/" target="_blank"> twilioplays2048.com </a> </div>
 							</div>
 						
 							<div class="project-description">
@@ -236,7 +279,7 @@
 						</div>
 						
 					</article> 
-					<article class="project-item web-design image y2013 masonry-brick" style="position: absolute; top: 0px; left: 370px;">
+					<article class="project-item web-design image y2013 masonry-brick" style="position: absolute; top: 0px; left: 0px;">
 						
 						<a href="#">
 							<img class="img-responsive project-thumb" src="img/podgenius.png" alt="">
@@ -293,7 +336,7 @@
 								<div class="newline"><span>Date : </span>March 03, 2014</div>
 								<div class="newline"><span>Creation : </span> CODE Hackathon </div>
 								<div class="newline"><span>Categories : </span>Web App</div>
-								<div class="newline"><span>Website : </span> <a href="http://Canadian-abroad.herokuapp.com" target="_blank">www.Canadian-abroad.herokuapp.com</a> </div>
+								<div class="newline"><span>Website : </span> <a href="http://Canadianabroad.info" target="_blank">www.Canadianabroad.info</a> </div>
 
 							</div>
 						
@@ -320,7 +363,7 @@
 						
 					</article>
 					
-					<article class="project-item mobile image y2014 masonry-brick" style="position: absolute; top: 0px; left: 0px;">
+					<article class="project-item mobile image y2014 masonry-brick" style="position: absolute; top: 0px; left: 370px;">
 						
 						<a href="#">
 							<img class="img-responsive project-thumb" src="img/gameboy.png">
@@ -450,8 +493,8 @@
 						<h4>Follow me on Twitter</h4>
 					</li>
 					<li class="scrollimation fade-up d1 in">
-						<a href="https://www.facebook.com/cheng.w.peng" class="icon" target="_blank"><i class="fa fa-facebook"></i></a>
-						<h4>Like me on Facebook</h4>
+						<a href="https://challengepost.com/users/chengpeng123?ref_content=user-portfolio&quot;ref_feature=portfolio&quot;ref_medium=global-nav" class="icon" target="_blank"><img src="img/challenge.png"></img></a>
+						<h4>Follow me on ChallengePost</h4>
 					</li>
 					<li class="scrollimation fade-up d2 in">
 						<a href="https://www.linkedin.com/pub/cheng-peng/47/125/82" class="icon" target="_blank"><i class="fa fa-linkedin"></i></a>
